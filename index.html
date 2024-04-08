@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./script.js"></script>
+    <title>Zhongtian Wang|Portfolio</title>
+</head>
+<body>
+    <header>
+        <section class = 'headerText'>
+            <h1>Zhongtian Wang</h1>
+            <hr class = 'headerLine'>
+            <p>Portfolio 2022<br>DECO 7180</p>
+
+        </section>
+    </header>
+    <!-- <nav class = 'topNav'>
+
+    </nav> -->
+    <nav class = 'sideNav'>
+        <button onclick="gotoStart()">home</button>
+        <button onclick="gotoIntro()">introduction</button>
+        <button onclick="dropList(0)">our project<div class="p">+</div></button>
+
+        <div class = "sidedetail">
+            <button onclick="gotoP1()">Early stage</button>
+            <button onclick="gotoP2()">finalized</button>
+        </div>
+
+        <button onclick="dropList(1)">my work<div class = "p">+</div></button>
+
+        <div class = "sidedetail">
+            <button onclick="gotoWork1()">Design Inspiration</button>
+            <button onclick="gotoWork2()">Rapid Design Sprint</button>
+            <button onclick="gotoWork3()">Design Proposal Milestone</button>
+            <button onclick="gotoWork4()">Final Delivery</button>
+        </div>
+
+        <button onclick="gotoRef()">course reflection</button>
+
+    </nav>
+    
+    <section class="content">
+        <section id="intro">
+            <div class="title1">
+                <h1>Introduction</h1>
+                <hr class = 'headerLine'>
+            </div>
+
+            <div class="sub">
+                <div class = "left">
+                    <h2>About me</h2>
+                    <hr>
+                    <p>Hi there! I'm Zhongtian Wang.</p>
+                    <p>I'm currently a student of information technology, and was a mechanical engineering student before.</p>
+                    <p>I'm here to free my ideas& thoughts, form a team, set up a goal, and fight for it!</p>
+                    <h4>Q: What does ‘Design Computing’ mean to you?</h4>
+                    <p>
+                        It’s a process from thoughts to products. It’s like using methods to make a floating balloon get to the ground to carry things. 
+                        And of course, there are some techniques to do with “Computing”, things like computer-assisted design. 
+                    </p>
+                    <h3>Welcome to my portfolio!</h3>
+                </div>
+                
+                <div class = "right">
+                    <img src="./imgs/portrait.jpg" alt="portrait">
+                    <h2>Contact me</h2>
+                    <hr>
+                    <p>Email:   zhongtianwang.something@uq.ITEE.com</p>
+                    <p>Ins:     @someInsID</p>
+                </div>
+            </div>
+            <hr class = 'headerLine'>
+        </section>
+
+        <div class="break"></div>
+
+        <section id="p1">
+            <div class="title1">
+                <h1>The early stage</h1>
+                <hr class = 'headerLine'>
+            </div>
+
+            <div class="sub">
+                <div class = "right">
+                    <img src="./imgs/early1.png" alt="early design">
+                    <h2>Our early design</h2>
+                    <hr>
+                    <p>
+                        The main feature is a diary-like collection function to achieve the following goals: 
+                    </p>
+                    <ul>
+                        <li>1.	Users can record their journey in the form of photos or words to enhance their sense of achievement when encountering public art</li>
+                        <li>2.	Set achievements to encourage users to learn about and collect public art</li>
+                        <li>3.	Users can publish the contents of the app to SNS platforms for further dissemination of public art</li>
+                    </ul>
+
+                </div>
+                
+                <div class = "left">
+                    <h2>Early system concept</h2>
+                    <hr>
+                    <p>After the rapid design sprint process, our system concept is to design a mobile app based on the Brisbane public art database to 
+                        encourage more people to visit and understand public art, so as to solve the problem of low awareness of public art.</p>
+
+                </div>
+                
+
+            </div>
+            <hr class = 'headerLine'>
+        </section>
+
+        <div class="break"></div>
+
+        <section id="p2">
+            <div class="title1">
+                <h1>Finalized concept</h1>
+                <hr class = 'headerLine'>
+            </div>
+
+            <div class="sub">
+                <div class = "left">
+                    <h2>Why change</h2>
+                    <hr>
+                    <p>It happened gradually with the iteration of the concept design.</p>
+                    <p>I'm currently a student of information technology, and was a mechanical engineering student before.</p>
+                    <p>However there was a deadly problem, which was pointed out during our user test that the project's MVP and highlight function are blurred by other features. 
+                        For example, the sharing and 'diary-like' home page appear to be almost identical to several existing SNS applications (such as Instagram), 
+                        undermining the main objective of increasing users' interest in public art and landmarks. As a result, we go over the MSCW foundation once more. 
+                        After determining that the most important function of the system will be the user's collection process, 
+                        we made significant modifications to better align the system with the concept and decided to cut all unrelated ones. 
+                    </p>
+                    <h3>-- And here is what it become --</h3>
+                    <img src="./imgs/after1.png" alt="later design">
+                </div>
+                
+                <div class = "right">
+                    <img src="./imgs/final1.png" alt="final design">
+                    <img src="./imgs/final2.png" alt="final design">
+                    <hr>
+                    <h2>&uarr; then Adding some details &uarr;</h2>
+                    <button>try it!</button>
+                </div>
+            </div>
+            <hr class = 'headerLine'>
+        </section>
+
+        <div class="break"></div>
+
+        <section id="work1">
+            <div class="title1">
+                <h1>Design Inspiration</h1>
+                <hr class = 'headerLine'>
+            </div>
+
+            <div class="sub">
+                <div class = "left">
+                    <h2>My original concept</h2>
+                    <hr>
+                    <p>My first idea is meant to make users pay more attention to the wildlife around them. </p>
+                    <p> It can also contribute to wildlife protection, by providing the user with wildlife-protection-related information. <br>
+                        It mostly targets the youth around 20-25 who live in Australia and have some outdoor time and social needs. 
+                    </p>
+                    <h3>creature collection !</h3>
+                    <img src="./imgs/poster.jpg" alt="concept poster">
+                </div>
+                
+                <div class = "right">
+                    <h2>&darr; Insperations &darr;</h2>
+                    <img src="./imgs/insp1.png" alt="insp1">
+                    <hr>
+                    <p>Communications with other class mates during the studio also inspired me a lot. 
+                    </p>
+                    <p> I also tried to upcoming some ideas with randomly generated API and backgrounds during the studio on week2.
+                        In most circumstances, the random construction of alternative databases and backdrops would have been paradoxical, 
+                        but the procedure required me to apply my creativity and association, paving the road for the project's ultimate concept later on. 
+                        The apparently unreasonable mix of context and database can sometimes surprisingly result in plausible and unique thoughts.
+                    </p>
+                    <hr>
+                    <img src="./imgs/insp2.png" alt="insp2">
+                </div>
+            </div>
+            <hr class = 'headerLine'>
+        </section>
+
+        <div class="break"></div>
+        
+        <section id="work2">
+            <div class="title1">
+                <h1>Rapid Design Sprint</h1>
+                <hr class = 'headerLine'>
+            </div>
+
+            <div class="sub">
+                <div class = "left">
+                    <h2>my functional draft</h2>
+                    <hr>
+                    <p>After got into agreement on our team project's concept, I started to consider about how the functions should be realized. 
+                        And drew a draft of the functional flowchart.
+
+                    </p>
+                    <h3>my functional draft</h3>
+                    <img src="./imgs/draft1.jpg" alt="functional draft">
+                </div>
+
+                
+                <div class="right">
+                    <img src="./imgs/story1.jpg" alt="storyboard">
+                    <hr>
+                    <h2>the storyboard during Rapid Design Sprint</h2>
+                    <p>Then I had a discussiong with my team members and come up with a storyboard.</p>
+                </div>
+            </div>
+
+            <div class="title1">
+                <h1>Coading</h1>
+                <hr class = 'headerLine'>
+            </div>
+
+            <div class="sub2">
+                <h2>simple map function</h2>
+                <hr>
+                <p>During this period, I started to build some of the features in current system concept, which is the map function.
+                    I pulled data from the Brisbane public art database API and used the leaflet map API to display the location of the public art on the map.
+                </p>
+                <img src="./imgs/mapJs1.png" alt="mapJs">
+                <img src="./imgs/map1.png" alt="map">
+
+                <h2>upgrading map function</h2>
+                <hr>
+                <p>In order to avoid clogging the map interface with too many marks, 
+                    I learned about the clustering function built in the leaflet map, and also added map filters at the corner:
+                </p>
+                <video src="./imgs/map.mp4" controls muted></video>
+                <div class="longPic">
+                    <img  src="./imgs/mapJs2.png" alt="map">
+                </div>
+                <hr class = 'headerLine'>
+            </div>
+
+        </section>
+        
+        <div class="break"></div>
+        
+        <section id="work3">
+            <div class="title1">
+                <h1>Design Proposal Milestone</h1>
+                <hr class = 'headerLine'>
+            </div>
+
+            <div class="sub2">
+                <div class = "left">
+                    <h2>User interact flow</h2>
+                    <hr>
+                    <p>Since the system was significantly changed, and finally settled, there are more technical issues in this stage for me to conquer. 
+                        First of all, the whole user interaction flow needs to be cleared. 
+                        So I drew a flow diagram based on the discussions of our group meeting and finalized it with the suggestions and agreements of the rest of the group members. 
+                    </p>
+                    <img src="./imgs/flow.png" alt="flow diag">
+                    <p>The diagram clearified the user interaction route and showed clearly about different information that needs to be displayed during different stages of collecting</p>
+
+                    <h2>Interaction functions</h2>
+                    <hr>
+                    <p>There are several functions atomicly combined to form the whole interaction process. 
+                        I started to build the functions one by one, and then combined them together to form the whole interaction process.
+                    </p>
+
+                    <h4>Data processing:</h4>
+                    <p>The original API's raw data contains a lot of information that may be irrelevant and, in some situations, distracting to the databases’ usage in the project. 
+                        For instance, the memorial database's description has numerous HTML tags, which appear as some unintelligible characters when shown in detail. 
+                        Additionally, the public art API documents are too extensive thus generating too many classes for its useage purpose in this situation.
+                        I wrote a function to format the text pulled from API and solve these problems:
+                    </p>
+                    <div class="sub">
+                        <div class="left">
+                            <img src="./imgs/format.png" alt="format">
+                            <p>The function for formatting the description text and material text</p>
+                        </div>
+                        <div class="right">
+                            <img src="./imgs/format2.png" alt="format">
+                            <p>Before formatting</p>
+                            <img src="./imgs/format3.png" alt="format">
+                            <p>Same data field after formatting</p>
+                        </div>
+                    </div>
+
+                    <h4>Dynamic display:</h4>
+                    <p>I created a local variable named "progress" to keep track of how many steps the user has taken. I also used it to update the necessary CSS element on the page and apply the dynamic effect.
+                    </p>
+                    <img src="./imgs/lvl.png" alt="">
+                    <p>with code below</p>
+                    <img src="./imgs/js3.png" alt="">
+                    <p>Then in order to boost engagement and provide more positive feedback to users, the specifics of a specific item in the collection book will progressively be "unlocked" during the collecting process. And so on along the collection book's list.
+                        Using Javascript, it is straightforward to keep track of each item and determine if it has been gathered, but it is more complex to portray the result on an HTML page. I attempted to include HTML class tags, but the issue continued. So, whenever it needs to be displayed, I just clear the container and update it. This final solution was not the most brilliant, but it served its goal admirably.
+                    </p>
+                    <img src="./imgs/bk4.png" alt="">
+                    <p>&darr; different appearence for different collecting stages &uarr;</p>
+                    <div class="sub">
+                        <div class="left">
+                            <img src="./imgs/bk1.png" alt="">
+                            <img src="./imgs/bk3.png" alt="">
+                            <img src="./imgs/bk2.png" alt="">
+                        </div>
+                        <div class="right">
+                            <img src="./imgs/js4.png" alt="">
+                            <p>the code for updating the collection book</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            <hr class = 'headerLine'>
+            </div>
+
+        </section>
+
+        <div class="break"></div>
+
+                <section id="work4">
+            <div class="title1">
+                <h1>Final Delivery</h1>
+                <hr class = 'headerLine'>
+            </div>
+
+            <div class="sub2">
+                <div class = "left">
+                    <h2>The Tradeshow</h2>
+                    <hr>
+                    <p>In addition to introducing, and demonstrating, while using our website to interested visitors during the Tradeshow, 
+                        my team and I also got to see projects from several other groups, not only the DECO7180 group. 
+                        Many visitors to the show provided excellent remarks on our idea and work, which encouraged me a lot. I really had a lot of crops and fun during the trade show.  
+                    </p>
+                    <h4>our show ground</h4>
+                    <div class="sub">
+                        <div class="left">
+                            <img src="./imgs/show1.png" alt="">
+                            <img src="./imgs/show3.png" alt="">
+                        </div>
+                        <div class="right">
+                            <img src="./imgs/show2.png" alt="">
+                        </div>
+                    </div>
+                    <p>And I also got to see projects from several other groups</p>
+                    <img src="./imgs/m1.jpg" alt="">
+                    <img src="./imgs/m2.jpg" alt="">
+                    <img src="./imgs/m3.jpg" alt="">
+                    <img src="./imgs/m4.jpg" alt="">
+                    <img src="./imgs/m5.jpg" alt="">
+                    <h2>Reflection</h2>
+                    <hr>
+                    <p>This week I attended the Tradeshow and explained to students and teachers who were interested in our product. Since our product is available, I also invited them to try our product. At the end of the trial, we generally received very good comments, which made me feel that all the efforts of the semester were worthwhile. Although the exhibition as a whole was a success, the two fake pages still make me feel hugely regretful. In the future, if I have such an opportunity, I will definitely make a more perfect and better finished product.
+                    </p>
+                </div>
+                <hr class = 'headerLine'>
+            </div>
+
+        </section>
+
+        <div class="break"></div>
+
+        <section id="ref">
+            <div class="title1">
+                <h1>course reflection</h1>
+                <hr class = 'headerLine'>
+            </div>
+
+            <div class="sub">
+                <div class = "left">
+                    <h2>Semester summary</h2>
+                    <hr>
+                    <p>Different from other DECO classes, 
+                        this semester-long project focuses more on concept design and function realization than other stages such as user test and estimating. 
+                        Throughout the entire design process, these two key variables should be refined while influencing one another. 
+                        The primary function should be strongly related to the system concept, and the system concept should take into account the likelihood
+                         and complexity of the main function's implementation.
+                    </p>
+                    <p>Also, the rapid design sprint inspires me a lot.
+                         During a large project, it is essential for schedule management. 
+                         And rapid design sprint can significantly shrink the trial process. 
+                         It is a representation of a stepped procedure: first, determine the problem with precision; 
+                         second, brainstorm with possible solutions; last, integrate and exclude these solutions and come up with a ‘best’ approach at this stage. 
+                    </p>
+                    <p>On the other hand, our project is still far from the ideal condition of the whole system concept we designed. 
+                        It certainly fulfilled the main function and core of the concept, but there is still a lot to be upgraded in the future, 
+                        such as adding a user register and login entrance to keep all data on the cloud instead of using browser cookies. 
+                        And of course, adding pictures to each item. 
+                    </p>
+                </div>
+
+                <div class="right">
+                    <img src="./imgs/shoe.jpg" alt="">
+                    <hr>
+                    <h2>Special Thank:</h2>
+                    <p>My best team mates</p>
+                    <p>All of the course stuffs</p>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="break"></div>
+
+        <P style="font-size: 1;">No pictures used in this website comes from network. All photos shot by myself. </P>
+
+    </section>
+</body>
+</html>
