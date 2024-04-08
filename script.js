@@ -13,36 +13,6 @@ function gotoIntro() {
     window.location.href = "#intro";
 }
 
-function gotoWork1() {
-    // goto id work1
-    window.location.href = "#work1";
-}
-
-function gotoWork2() {
-    // goto id work2
-    window.location.href = "#work2";
-}
-
-function gotoWork3() {
-    // goto id work3
-    window.location.href = "#work3";
-}
-
-function gotoWork31() {
-    // goto id work31
-    window.location.href = "#work31";
-}
-
-function gotoWork4() {
-    // goto id work4
-    window.location.href = "#work4";
-} 
-
-function gotoRef() {
-    // goto id ref
-    window.location.href = "#ref";
-}
-
 function gotoP1() {
     // goto id p1
     window.location.href = "#p1";
